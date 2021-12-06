@@ -1,0 +1,39 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>LOGIN PAGE</title>    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">    
+	
+</head>    
+<body>    
+    <h2>LOGIN PAGE</h2><br>    
+    <div class="login">    
+    <form name="f1" id="login" method="POST" action="/loginValidation" ">    
+      
+    <div class="container">
+     {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}<br>
+    {% if msg %}
+    <p>{{ msg }}</p>
+    {% endif %}<br>
+	</div>
+	
+       <label><b>Username    
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Enter Username">		
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Enter Password">    
+        <br><br>    
+         <input type="submit" name="log" id="submit" value="Log In">
+		 <br><br>    
+        <span class="psw">New User? <a href="/register">Sign Up Here</a></span>
+    </form>     
+</div>    
+</body>  
+  
+</html>    

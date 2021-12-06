@@ -1,0 +1,134 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:White;  
+    font-family: 'Arial';  
+}  
+.login,.signin,.homeclass{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: LightGray;  
+        border-radius: 15px ;  
+          
+}  
+.homeclass{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: white;  
+        border-radius: 15px ;  
+          
+}  
+#submit{  
+        background-color: burlywood; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 14px 40px;
+        cursor: pointer;  
+          
+}  
+
+h2{  
+    text-align: center;  
+	font-size: 250%; 
+    color: #cc6e5e;  
+    padding: 20px;  
+}  
+label{  
+    color: #7ec91b;  
+    font-size: 17px;  
+}  
+p{
+	text-align: center; 
+}
+#Uname,#Pass,#Fname,#Lname,#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+
+span{  
+    color: rgb(25, 176, 202);  
+    font-size: 17px;  
+}  
+a{  
+    float: center-left;
+    color: rgb(30, 206, 162);    
+
+     
+}  
+
+form.homeform input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(145, 202, 12);
+  float: left;
+  width: 80%;
+  background: #1bcca0;
+}
+
+
+
+form.homeform button {
+  float: center;
+  width: 50%;
+  padding: 10px;
+  background: #d86fd3;
+  color: rgb(29, 142, 170);
+  font-size: 17px;
+  border: 1px solid rgb(70, 11, 65);
+  border-left: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+.search input[type=text]{
+	padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(35, 155, 163);
+  float: left;
+  width: 80%;
+  background: #270817;
+}
+
+.search button[type=submit] {
+   
+  width: 20%;
+  
+  padding: 10px;
+  background: #6744c7;
+  color: rgb(105, 25, 143);
+  font-size: 17px;
+  border: 1px solid rgb(46, 100, 150);
+  border-left: none;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+.search{  
+text-align: center;  
+width: 500px;  
+height: 200px;  
+padding-top: 10px;  
+padding-left: 450px;
+}  
+.container{  
+text-align: center;  
+width: 300px;  
+height: 200px;  
+padding-top: 50px;  
+}  
+

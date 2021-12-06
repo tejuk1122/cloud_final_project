@@ -1,0 +1,32 @@
+CREATE TABLE `households` (
+  `HSHD_NUM` varchar(11) DEFAULT NULL,
+  `L` varchar(24) DEFAULT NULL,
+  `age_Range` varchar(45) DEFAULT NULL,
+  `marital` varchar(45) DEFAULT NULL,
+  `income_Range` varchar(45) DEFAULT NULL,
+  `homeowner` varchar(45) DEFAULT NULL,
+  `HSHD_COMPOSITION` varchar(45) DEFAULT NULL,
+  `HH_SIZE` varchar(45) DEFAULT NULL,
+  `children` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `products` (
+  `PRODUCT_NUM` varchar(11) DEFAULT NULL,
+  `department` varchar(45) DEFAULT NULL,
+  `commodity` varchar(45) DEFAULT NULL,
+  `brand_type` varchar(45) DEFAULT NULL,
+  `natural_organic_flag` varchar(24) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `transactions` (
+  `BASKET_NUM` varchar(11) DEFAULT NULL,
+  `HSHD_NUM` varchar(11) DEFAULT NULL,
+  `purchase_` varchar(45) DEFAULT NULL,
+  `PRODUCT_NUM` varchar(11) DEFAULT NULL,
+  `spend` varchar(45) DEFAULT NULL,
+  `units` varchar(11) DEFAULT NULL,
+  `store_r` varchar(45) DEFAULT NULL,
+  `week_num` varchar(11) DEFAULT NULL,
+  `year` varchar(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
